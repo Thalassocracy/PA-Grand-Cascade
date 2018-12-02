@@ -1,0 +1,14 @@
+{
+    "context": "server",
+    "identifier": "com.pa.dissonant.tugofwar",
+    "display_name": "Tug of War",
+    "description": "Early Testing; many units not implemented yet; Build structures that spawn units, counter your opponents, and watch as your army annihilates all that would oppose you.",
+    "author": "Dissonant, (see credits)",
+    "version": "0.4",
+    "build": "89755",
+    "date": "2018/11/22",
+    "signature": "",
+    "forum": "",
+    "icon": "",
+    "priority": "99",
+}
