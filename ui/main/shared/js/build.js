@@ -42,7 +42,7 @@ var Build = (function() {
         "/pa/units/land/tank_light_laser/tank_light_laser.json": ["vehicle", 13],
         "/pa/units/land/tank_armor/tank_armor.json": ["vehicle", 14],
         "/pa/units/land/land_scout/land_scout.json": ["vehicle", 15],
-        "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json": ["vehicle", 16],
+        "/pa/units/spawner/spinner_spawner/spinner_spawner.json": ["vehicle", 16],
          "/pa/units/land/tank_hover/tank_hover.json": ["vehicle", 17],
 
 

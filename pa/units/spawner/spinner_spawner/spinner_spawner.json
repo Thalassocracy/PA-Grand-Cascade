@@ -1,0 +1,24 @@
+{   
+    "base_spec": "/pa/units/spawner/dox_spawner/dox_spawner.json",
+    "display_name": "!LOC:1x Spinner (10 Seconds)",
+    "description": "!LOC: Spinner",
+    "tools": [
+        {
+          "muzzle_bone": "bone_root",
+          "projectiles_per_fire": 1,
+          "aim_bone": "bone_root",
+          "spec_id": "/pa/units/spawner/spinner_spawner/spinner_spawner_weapon.json"
+        }
+    ],
+    "production": {
+        "metal": 1,
+        "energy": 23
+    },
+    "consumption": {
+        "energy": 0
+    },
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Cmdbuild"
+    ]
+}
