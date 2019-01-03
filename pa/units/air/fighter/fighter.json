@@ -1,0 +1,106 @@
+{
+    "display_name": "!LOC:Hummingbird",
+    "description": "!LOC:Fighter- Fast. High damage. Only attacks air targets.",
+    "TEMP_texelinfo": 6.1803,
+    "audio": {
+      "loops": {
+        "move": {
+          "should_stop_func": "is_not_moving",
+          "flag": "vel_changed",
+          "cue": "/SE/Movement/air/air_fighter_loop",
+          "should_start_func": "is_moving_laterally"
+        }
+      },
+      "selection_response": {
+        "cue": "/SE/Selection/air/fighter"
+      }
+    },
+    "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+    "build_metal_cost": 220,
+    "events": {
+      "died": {
+        "audio_cue": "/SE/Death/Air",
+        "effect_spec": "/pa/units/air/base_flyer/base_flyer_death.pfx",
+        "effect_scale": 0.85
+      },
+      "fired": {
+        "audio_cue": "/SE/Weapons/air/fighter_fire"
+      },
+      "build_complete": {
+        "audio_cue": "/SE/Build_Complete/air"
+      }
+    },
+    "fx_offsets": [
+      {
+        "offset": [
+          0,
+          2.9,
+          0.836
+        ],
+        "filename": "/pa/units/air/fighter/fighter_jets.pfx",
+        "type": "moving_forward"
+      }
+    ],
+    "guard_layer": "WL_AnySurface",
+    "max_health": 150,
+    "mesh_bounds": [
+      9,
+      6.5,
+      3.1
+    ],
+    "model": {
+      "arrows": 5,
+      "filename": "/pa/units/air/fighter/fighter.papa"
+    },
+    "navigation": {
+      "bank_factor": 10,
+      "move_speed": 110,
+      "acceleration": 110,
+      "vertical_speed": 45,
+      "brake": 30,
+      "turn_speed": 270,
+      "aggressive_distance": 50.0,
+      "type": "air",
+      "hover_time": -1.0
+    },
+    "physics": {
+      "radius": 6,
+      "gravity_scalar": 1
+    },
+    "recon": {
+      "observer": {
+        "items": [
+          {
+            "channel": "sight",
+            "shape": "capsule",
+            "radius": 150,
+            "layer": "surface_and_air"
+          },
+          {
+            "channel": "sight",
+            "shape": "capsule",
+            "radius": 150,
+            "layer": "underwater"
+          }
+        ]
+      }
+    },
+    "selection_icon": {
+      "diameter": 16.0
+    },
+    "tools": [
+      {
+        "muzzle_bone": "bone_root",
+        "aim_bone": "bone_root",
+        "spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json"
+      }
+    ],
+    "unit_types": [
+      "UNITTYPE_Fighter",
+      "UNITTYPE_Air",
+      "UNITTYPE_Mobile",
+      "UNITTYPE_Offense",
+      "UNITTYPE_Basic",
+      "UNITTYPE_FactoryBuild"
+    ]
+  }

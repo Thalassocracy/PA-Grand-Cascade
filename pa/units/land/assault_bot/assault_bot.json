@@ -32,11 +32,11 @@
   },
   "guard_layer": "WL_AnySurface",
   "navigation": {
-    "type": "amphibious",
     "acceleration": 50,
-    "brake": -1,
+    "brake": 20,
     "move_speed": 18,
-    "turn_speed": 720
+    "turn_speed": 720,
+    "aggressive_distance": 0.0
   },
   "physics": {
     "radius": 2
