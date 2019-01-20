@@ -34,7 +34,7 @@
   "navigation": {
     "acceleration": 50,
     "brake": 20,
-    "move_speed": 18,
+    "move_speed": 20,
     "turn_speed": 720,
     "aggressive_distance": 0.0
   },

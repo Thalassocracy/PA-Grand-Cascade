@@ -93,6 +93,23 @@ var Build = (function() {
         "/pa/units/orbital/radar_satellite/radar_satellite.json": ["orbital", 14],
         "/pa/units/orbital/orbital_lander/orbital_lander.json": ["orbital", 15],
         "/pa/units/orbital/orbital_probe/orbital_probe.json": ["orbital", 16],
+
+
+        
+        "/pa/units/sea/drone_carrier/carrier/carrier.json": ["sea",0],
+
+        "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.json": ["sea",6],
+        "/pa/units/sea/battleship/battleship.json": ["sea", 7],
+        "/pa/units/sea/missile_ship/missile_ship.json": ["sea", 8],
+        "/pa/units/sea/nuclear_sub/nuclear_sub.json": ["sea", 9],
+        "/pa/units/sea/hover_ship/hover_ship.json": ["sea",10],
+
+        "/pa/units/sea/fabrication_ship/fabrication_ship.json": ["sea", 12],
+        "/pa/units/sea/frigate/frigate.json": ["sea", 13],
+        "/pa/units/sea/destroyer/destroyer.json": ["sea", 14],
+        "/pa/units/sea/attack_sub/attack_sub.json": ["sea", 15],
+        "/pa/units/sea/sea_scout/sea_scout.json": ["sea", 16],
+        "/pa/units/sea/fabrication_barge/fabrication_barge.json": ["sea",17],
     };
 
     return {
