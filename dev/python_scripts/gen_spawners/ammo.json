@@ -1,0 +1,4 @@
+{
+    "base_spec": "/pa/units/spawner/dox_spawner/dox_spawner_ammo.json",
+    "spawn_unit_on_death": "/pa/units/air/air_scout/air_scout.json"
+  }
